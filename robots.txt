@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /case-study.html
+
+Sitemap: https://33league.github.io/sitemap.xml
