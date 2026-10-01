@@ -4,22 +4,21 @@
 */
 window.SITE = {
   // Business email shown on the site
-  email: "hello@example.com",
+  email: "33league.official@gmail.com",
 
-  // WhatsApp number with country code, digits only (e.g. 919876543210)
-  whatsapp: "910000000000",
+  // WhatsApp number with country code, digits only.
+  whatsapp: "",
 
   // Pre-filled WhatsApp message
   whatsappText: "Hi 33 League, I'd like to talk about my brand.",
 
   // Booking link (Cal.com or Calendly)
-  booking: "https://cal.com/",
+  booking: "",
 
   // Social profiles
-  instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
+  instagram: "",
+  linkedin: "",
 
-  // Free key from https://web3forms.com (enter your email there, they send you the key).
-  // Leave empty and the form falls back to opening WhatsApp with the details.
+  // Free key from https://web3forms.com
   web3formsKey: ""
 };
