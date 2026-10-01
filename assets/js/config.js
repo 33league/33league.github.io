@@ -3,22 +3,39 @@
   Edit only the values in quotes. Every page reads from this file.
 */
 window.SITE = {
-  // Business email shown on the site
   email: "33league.official@gmail.com",
-
-  // WhatsApp number with country code, digits only.
   whatsapp: "",
-
-  // Pre-filled WhatsApp message
   whatsappText: "Hi 33 League, I'd like to talk about my brand.",
-
-  // Booking link (Cal.com or Calendly)
   booking: "",
-
-  // Social profiles
   instagram: "",
   linkedin: "",
-
-  // Free key from https://web3forms.com
   web3formsKey: ""
 };
+
+/* Keep the public site free of unfinished template content until real assets/details are supplied. */
+document.addEventListener("DOMContentLoaded", function () {
+  if (document.body.classList.contains("home")) {
+    document.querySelectorAll(".proof, .stats").forEach(function (el) {
+      var section = el.closest("section");
+      if (section) section.remove(); else el.remove();
+    });
+
+    document.querySelectorAll(".quote").forEach(function (el) {
+      var section = el.closest("section");
+      if (section) section.remove(); else el.remove();
+    });
+
+    document.querySelectorAll(".surface section:has(.section-head)").forEach(function (section) {
+      section.remove();
+    });
+  }
+
+  document.querySelectorAll(".team-group").forEach(function (group) {
+    var eyebrow = group.querySelector(".eyebrow");
+    if (eyebrow && eyebrow.textContent.trim().toLowerCase() === "honorary advisors") {
+      group.remove();
+    }
+  });
+
+  document.querySelectorAll(".placeholder-tag").forEach(function (el) { el.remove(); });
+});
