@@ -9,8 +9,8 @@ Live at **https://33league.github.io**
 | File | Page |
 |---|---|
 | `index.html` | Home, with the scroll-driven 3D Earth |
-| `work.html` | Portfolio grid with filters |
-| `case-study.html` | Case study template (hidden from Google until filled) |
+| `work.html` | Portfolio grid with filters, results and client quotes |
+| `case-studies/*.html` | One page per client: challenge, what we did, results, gallery |
 | `about.html` | Story, co-founders, partners, honorary advisors |
 | `contact.html` | Contact form, WhatsApp, booking, email |
 | `404.html` | Page not found |
@@ -26,11 +26,15 @@ Live at **https://33league.github.io**
 
 **Client logos:** add files to `assets/img/logos/` and replace each `<span class="logo-slot">Logo</span>` in `index.html` with an `<img>`.
 
-**Portfolio:** replace the `[Brand name]` cards in `work.html` (and the first three in `index.html`). Each card's `data-cat` can be `growth`, `brand`, `tech` or `experiences`.
+**Portfolio and case studies:** `work.html`, every page in `case-studies/` and `sitemap.xml` are generated. Do not edit them by hand.
+1. Edit the text in `_build/cases.js`. Each case's `cats` can be `growth`, `tech` or `brand`.
+2. Put images in `assets/img/work/<slug>/` (`01.jpg` is the cover, plus `cover-sm.jpg` at 900px wide) and list them in `_build/images.json`.
+3. Run `node _build/build.js`, then `node _build/check.js` to confirm no broken links.
+4. Preview with `node _build/serve.js` and open http://127.0.0.1:4433.
 
-**New case study:** copy `case-study.html` to a new name (e.g. `brand-name.html`), fill it in, remove the `noindex` robots line near the top, and add the page to `sitemap.xml`.
+The `_build` folder is not published by GitHub Pages.
 
-**Numbers:** the `XX+` stats in `index.html` must be real figures. No promised results.
+**Homepage results:** the stats, three Selected Work cards and testimonials in `index.html` are edited by hand. Use only real figures that match the case studies, and only client-approved quotes. No promised results.
 
 ## Before going public
 

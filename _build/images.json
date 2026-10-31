@@ -1,0 +1,1122 @@
+﻿{
+    "alterhub":  [
+                     {
+                         "file":  "01.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Cover",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "02.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Approach",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "03.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Monthly Results",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "04.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Audience",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "05.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Creatives",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "06.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Ads Manager",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "07.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Outcome",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "08.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Viral Reel",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "09.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Client Voice",
+                         "organic":  false,
+                         "tall":  false
+                     },
+                     {
+                         "file":  "10.jpg",
+                         "w":  1600,
+                         "h":  1000,
+                         "caption":  "Service Posts",
+                         "organic":  true,
+                         "tall":  false
+                     }
+                 ],
+    "angooti":  [
+                    {
+                        "file":  "01.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Cover",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "02.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Brief",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "03.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Results",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "04.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Monthly",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "05.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Audience",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "06.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Creatives",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "07.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Outcome",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "08.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Client Story",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "09.jpg",
+                        "w":  1600,
+                        "h":  900,
+                        "caption":  "Client Voice",
+                        "organic":  false,
+                        "tall":  false
+                    }
+                ],
+    "find-my-pet":  [
+                        {
+                            "file":  "01.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Cover",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "02.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Approach",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "03.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Monthly Scale",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "04.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Campaign Tests",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "05.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Strategy Split",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "06.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Top Countries",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "07.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Outcome",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "08.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Client Story",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "09.jpg",
+                            "w":  1600,
+                            "h":  1000,
+                            "caption":  "Client Voice",
+                            "organic":  false,
+                            "tall":  false
+                        }
+                    ],
+    "number-fusion":  [
+                          {
+                              "file":  "01.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Cover",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "02.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Approach",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "03.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Monthly Scale",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "04.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Campaign Tests",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "05.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Global Scaling",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "06.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Top Countries",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "07.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Outcome",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "08.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Client Story",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "09.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Client Voice",
+                              "organic":  false,
+                              "tall":  false
+                          }
+                      ],
+    "pushpak":  [
+                    {
+                        "file":  "01.jpg",
+                        "w":  1600,
+                        "h":  1000,
+                        "caption":  "Cover",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "02.jpg",
+                        "w":  1600,
+                        "h":  1000,
+                        "caption":  "Story",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "03.jpg",
+                        "w":  1600,
+                        "h":  1000,
+                        "caption":  "Results",
+                        "organic":  false,
+                        "tall":  false
+                    }
+                ],
+    "loudmouth":  [
+                      {
+                          "file":  "01.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Cover",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "02.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Homepage Hero",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "03.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "New Arrivals",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "04.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Brand Story",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "05.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Product Pages",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "06.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Mobile Screens",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "07.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Footer Newsletter",
+                          "organic":  false,
+                          "tall":  false
+                      }
+                  ],
+    "hunger-nuts":  [
+                        {
+                            "file":  "01.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Cover",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "02.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Homepage Hero",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "03.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Best Sellers",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "04.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Gift Boxes Combos",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "05.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Brand Story",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "06.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Product Page",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "07.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Trust Sections",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "08.jpg",
+                            "w":  1600,
+                            "h":  1200,
+                            "caption":  "Mobile Screens",
+                            "organic":  false,
+                            "tall":  false
+                        },
+                        {
+                            "file":  "09.jpg",
+                            "w":  1100,
+                            "h":  5682,
+                            "caption":  "Full Homepage",
+                            "organic":  false,
+                            "tall":  true
+                        }
+                    ],
+    "book-port":  [
+                      {
+                          "file":  "01.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Cover",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "02.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Homepage Hero",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "03.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Trust Paths",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "04.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "School Verification",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "05.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Shop By Publisher",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "06.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "FAQ Footer",
+                          "organic":  false,
+                          "tall":  false
+                      },
+                      {
+                          "file":  "07.jpg",
+                          "w":  1600,
+                          "h":  1200,
+                          "caption":  "Mobile Screens",
+                          "organic":  false,
+                          "tall":  false
+                      }
+                  ],
+    "hoku":  [
+                 {
+                     "file":  "01.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Cover",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "02.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Hero",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "03.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Brand Statement",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "04.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Story",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "05.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Why",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "06.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Product Cards",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "07.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Recipes Reviews",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "08.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Footer",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "09.jpg",
+                     "w":  1600,
+                     "h":  1200,
+                     "caption":  "Mobile Screens",
+                     "organic":  false,
+                     "tall":  false
+                 },
+                 {
+                     "file":  "10.jpg",
+                     "w":  1100,
+                     "h":  4213,
+                     "caption":  "Full Homepage",
+                     "organic":  false,
+                     "tall":  true
+                 }
+             ],
+    "stree-swasthya":  [
+                           {
+                               "file":  "01.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Cover",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "02.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Homepage Hero",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "03.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Shop By Need",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "04.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Life Stages",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "05.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Product Story",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "06.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Shoppable Videos",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "07.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Best Sellers",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "08.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Voice Journal",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "09.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Consultation Footer",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "10.jpg",
+                               "w":  1600,
+                               "h":  1200,
+                               "caption":  "Mobile Screens",
+                               "organic":  false,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "11.jpg",
+                               "w":  1100,
+                               "h":  6415,
+                               "caption":  "Full Homepage",
+                               "organic":  false,
+                               "tall":  true
+                           },
+                           {
+                               "file":  "12.jpg",
+                               "w":  1600,
+                               "h":  1000,
+                               "caption":  "Awareness",
+                               "organic":  true,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "13.jpg",
+                               "w":  1600,
+                               "h":  1000,
+                               "caption":  "Product Ads",
+                               "organic":  true,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "14.jpg",
+                               "w":  1600,
+                               "h":  1000,
+                               "caption":  "Video UGC",
+                               "organic":  true,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "15.jpg",
+                               "w":  1600,
+                               "h":  1000,
+                               "caption":  "Everyday",
+                               "organic":  true,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "16.jpg",
+                               "w":  1600,
+                               "h":  1000,
+                               "caption":  "Ophilo",
+                               "organic":  true,
+                               "tall":  false
+                           },
+                           {
+                               "file":  "17.jpg",
+                               "w":  1600,
+                               "h":  1000,
+                               "caption":  "Delivered",
+                               "organic":  true,
+                               "tall":  false
+                           }
+                       ],
+    "provifi":  [
+                    {
+                        "file":  "01.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Cover",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "02.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Homepage Hero",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "03.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Bestsellers",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "04.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Activation Process",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "05.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Science Story",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "06.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Heritage Film",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "07.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Collection Product",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "08.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "CTA Footer",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "09.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Mobile Screens",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "10.jpg",
+                        "w":  1100,
+                        "h":  4717,
+                        "caption":  "Full Homepage",
+                        "organic":  false,
+                        "tall":  true
+                    }
+                ],
+    "muse-foods":  [
+                       {
+                           "file":  "01.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Cover",
+                           "organic":  false,
+                           "tall":  false
+                       },
+                       {
+                           "file":  "02.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Hero",
+                           "organic":  false,
+                           "tall":  false
+                       },
+                       {
+                           "file":  "03.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Trusted Clients",
+                           "organic":  false,
+                           "tall":  false
+                       },
+                       {
+                           "file":  "04.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Services Metrics",
+                           "organic":  false,
+                           "tall":  false
+                       },
+                       {
+                           "file":  "05.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Gallery CTA",
+                           "organic":  false,
+                           "tall":  false
+                       },
+                       {
+                           "file":  "06.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Enquiry Form",
+                           "organic":  false,
+                           "tall":  false
+                       },
+                       {
+                           "file":  "07.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Footer",
+                           "organic":  false,
+                           "tall":  false
+                       },
+                       {
+                           "file":  "08.jpg",
+                           "w":  1600,
+                           "h":  1200,
+                           "caption":  "Mobile Screens",
+                           "organic":  false,
+                           "tall":  false
+                       }
+                   ],
+    "oceanus":  [
+                    {
+                        "file":  "01.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Cover",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "02.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Homepage Hero",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "03.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Services",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "04.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Universities Destinations",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "05.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Track Record",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "06.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Testimonials",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "07.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Enquiry Footer",
+                        "organic":  false,
+                        "tall":  false
+                    },
+                    {
+                        "file":  "08.jpg",
+                        "w":  1600,
+                        "h":  1200,
+                        "caption":  "Mobile Screens",
+                        "organic":  false,
+                        "tall":  false
+                    }
+                ],
+    "bangalore-bag-company":  [
+                                  {
+                                      "file":  "01.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Cover",
+                                      "organic":  false,
+                                      "tall":  false
+                                  },
+                                  {
+                                      "file":  "02.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Follow Discount",
+                                      "organic":  false,
+                                      "tall":  false
+                                  },
+                                  {
+                                      "file":  "03.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Customer Stories",
+                                      "organic":  false,
+                                      "tall":  false
+                                  },
+                                  {
+                                      "file":  "04.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Design Launch",
+                                      "organic":  false,
+                                      "tall":  false
+                                  },
+                                  {
+                                      "file":  "05.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Brand Launch",
+                                      "organic":  false,
+                                      "tall":  false
+                                  },
+                                  {
+                                      "file":  "06.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Local Moments",
+                                      "organic":  false,
+                                      "tall":  false
+                                  },
+                                  {
+                                      "file":  "07.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Story Posts",
+                                      "organic":  false,
+                                      "tall":  false
+                                  },
+                                  {
+                                      "file":  "08.jpg",
+                                      "w":  1600,
+                                      "h":  1000,
+                                      "caption":  "Client Voice",
+                                      "organic":  false,
+                                      "tall":  false
+                                  }
+                              ],
+    "wood-brick-studio":  [
+                              {
+                                  "file":  "01.jpg",
+                                  "w":  1600,
+                                  "h":  1000,
+                                  "caption":  "Cover",
+                                  "organic":  false,
+                                  "tall":  false
+                              },
+                              {
+                                  "file":  "02.jpg",
+                                  "w":  1600,
+                                  "h":  1000,
+                                  "caption":  "Room Series",
+                                  "organic":  false,
+                                  "tall":  false
+                              },
+                              {
+                                  "file":  "03.jpg",
+                                  "w":  1600,
+                                  "h":  1000,
+                                  "caption":  "Tips",
+                                  "organic":  false,
+                                  "tall":  false
+                              },
+                              {
+                                  "file":  "04.jpg",
+                                  "w":  1600,
+                                  "h":  1000,
+                                  "caption":  "Client Voice",
+                                  "organic":  false,
+                                  "tall":  false
+                              }
+                          ],
+    "sutra-digital":  [
+                          {
+                              "file":  "01.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Cover",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "02.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Number Fusion",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "03.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Find My Pet",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "04.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Studio Brand",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "05.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Anime Series",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "06.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Legends",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "07.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Delivered",
+                              "organic":  false,
+                              "tall":  false
+                          },
+                          {
+                              "file":  "08.jpg",
+                              "w":  1600,
+                              "h":  1000,
+                              "caption":  "Client Voice",
+                              "organic":  false,
+                              "tall":  false
+                          }
+                      ]
+}

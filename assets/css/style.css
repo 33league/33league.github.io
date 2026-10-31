@@ -404,3 +404,63 @@ footer.site { border-top: 1px solid var(--line); padding: 70px 0 40px; backgroun
 @media (max-width: 620px) {
   .why-grid, .industries { grid-template-columns: 1fr; }
 }
+
+/* Case study cards */
+.case-card .work-visual { aspect-ratio: 16 / 10; background: var(--bg-2); }
+.case-card .work-visual img { object-position: center top; }
+.card-result { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 6px; padding-top: 14px; border-top: 1px solid var(--line); }
+.card-result b { font-family: var(--serif); font-weight: 500; font-size: 34px; line-height: 1; color: var(--text); }
+.card-result b, .stat b { font-variant-numeric: lining-nums; }
+.card-result span { color: var(--muted); font-size: 13.5px; }
+.work-stats { margin-top: 44px; }
+.work-stats + .note { margin-bottom: 8px; }
+.quote .link-arrow { margin-top: 10px; font-size: 13px; }
+
+/* Brand strip (home) */
+.brand-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 34px; }
+.brand-strip span { font-family: var(--serif); font-size: clamp(20px, 2.2vw, 26px); color: var(--muted); white-space: nowrap; transition: color .2s ease; }
+.brand-strip span:hover { color: var(--text); }
+
+/* Case study page */
+.crumbs { display: flex; gap: 10px; font-size: 13px; color: var(--faint); margin-bottom: 22px; }
+.crumbs a { color: var(--muted); }
+.crumbs a:hover { color: var(--accent); }
+.cs-head h1 { max-width: 20ch; }
+.cs-head .lede { max-width: 660px; }
+.cs-tags { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+.cs-tags li { font-size: 12.5px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-2); background: rgba(255,255,255,0.03); }
+.cs-cover-sec { padding-top: 0; padding-bottom: 40px; }
+.cs-cover { border-radius: 22px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 40px 120px -40px rgba(58,111,208,0.45); }
+.cs-cover img { width: 100%; height: auto; }
+.cs-stats { margin-top: 34px; }
+.cs-meta b a { font-size: 15px; }
+.cs-story { padding-top: 60px; }
+.cs-block ul li::marker { color: var(--accent); }
+.cs-result { color: var(--text) !important; font-size: 19px !important; margin-bottom: 18px; }
+.cs-wins { list-style: none; padding-left: 0 !important; }
+.cs-wins li { position: relative; padding: 12px 0 12px 30px; border-bottom: 1px solid var(--line); }
+.cs-wins li::before { content: "✓"; position: absolute; left: 4px; top: 12px; color: var(--accent); font-weight: 700; }
+.cs-quote-sec { padding-top: 0; }
+.cs-quote { padding: clamp(32px, 6vw, 64px); text-align: center; max-width: 960px; margin: 0 auto; }
+.cs-quote blockquote { font-size: clamp(24px, 3vw, 34px); }
+.cs-quote figcaption { margin-top: 22px; color: var(--accent); font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; }
+.gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-top: 44px; }
+.shot { margin: 0; }
+.shot a, .shot-scroll { display: block; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); background: var(--bg-2); }
+.shot img { width: 100%; height: auto; transition: transform .6s ease; }
+.shot a:hover img { transform: scale(1.02); }
+.shot figcaption { margin-top: 10px; font-size: 12.5px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--faint); display: flex; justify-content: space-between; gap: 12px; }
+.shot figcaption span { letter-spacing: 0.04em; text-transform: none; }
+.shot-tall { grid-column: 1 / -1; }
+.shot-scroll { max-height: 80vh; overflow-y: auto; overscroll-behavior: contain; }
+.shot-scroll img { max-width: 1100px; margin: 0 auto; }
+.next-case { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 34px clamp(24px, 4vw, 44px); border-radius: var(--radius); border: 1px solid var(--line); background: var(--panel-solid); transition: border-color .3s ease, transform .3s ease; }
+.next-case:hover { border-color: var(--accent); transform: translateY(-3px); }
+.next-case .eyebrow { flex-shrink: 0; }
+.next-title { font-family: var(--serif); font-size: clamp(26px, 3vw, 36px); line-height: 1.15; flex: 1; }
+.next-title em { display: block; font-family: var(--sans); font-style: normal; font-size: 15px; color: var(--muted); margin-top: 6px; }
+.next-case > svg { color: var(--accent); width: 28px; height: 28px; flex-shrink: 0; }
+@media (max-width: 820px) {
+  .gallery { grid-template-columns: 1fr; }
+  .next-case { flex-direction: column; align-items: flex-start; }
+}
