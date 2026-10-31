@@ -12,8 +12,13 @@ const SITE = "https://33league.github.io/";
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const bySlug = Object.fromEntries(cases.map((c) => [c.slug, c]));
-const order = ["alterhub", "angooti", "find-my-pet", "loudmouth", "hunger-nuts", "number-fusion", "stree-swasthya", "book-port", "hoku", "bangalore-bag-company", "provifi", "pushpak", "muse-foods", "wood-brick-studio", "oceanus", "sutra-digital"];
-const ordered = order.map((s) => bySlug[s]);
+// Work page sections, strongest results first. A case sits in the group of its first cat.
+const groups = [
+  { id: "growth", eyebrow: "Ads & growth", heading: "More Customers, Counted in Orders", text: "Meta, Google and YouTube campaigns we report in orders, enquiries and installs, not likes.", slugs: ["alterhub", "number-fusion", "find-my-pet", "pushpak", "angooti"] },
+  { id: "websites", eyebrow: "Websites & online stores", heading: "Websites Built to Sell", text: "Shopify, Framer and Wix sites designed around one question: what makes this visitor buy or get in touch?", slugs: ["book-port", "stree-swasthya", "muse-foods", "provifi", "hoku", "oceanus", "hunger-nuts", "loudmouth"] },
+  { id: "content", eyebrow: "Brand & content", heading: "Content People Follow", text: "Instagram and brand work that turns customers into followers, and followers into the next customers.", slugs: ["bangalore-bag-company", "wood-brick-studio", "sutra-digital"] }
+];
+const ordered = groups.flatMap((g) => g.slugs.map((s) => bySlug[s]));
 
 const arrow = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 const waIcon = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>';
@@ -124,21 +129,21 @@ function workPage() {
 ${header(pre)}
 <main id="main">
 <section class="page-head"><div class="wrap">
- <span class="eyebrow accent">Our work</span><h1 class="display">Real Brands. Real Numbers.</h1><hr class="rule">
- <p class="lede">Ads that bring in customers, websites that sell and content people follow. Here is what we have built for founders like you, and what it did for their business.</p>
+ <span class="eyebrow accent">Selected work</span><h1 class="display">Results Our Clients Can Count</h1><hr class="rule">
+ <p class="lede">We work with founders and growing brands in India and abroad. Here are a few of the things we have built for them, and what each one did for the business.</p>
  <div class="stats work-stats reveal">
-  <div class="stat"><b>6,500+</b><span>WhatsApp enquiries generated for clients</span></div>
-  <div class="stat"><b>1.13L+</b><span>app installs across 220 countries</span></div>
-  <div class="stat"><b>8</b><span>websites designed and built</span></div>
-  <div class="stat"><b>₹5.5L+</b><span>ad spend managed and tracked</span></div>
+  <div class="stat"><b>201</b><span>paid orders for a client whose website was not live yet</span></div>
+  <div class="stat"><b>1.13L+</b><span>app installs in 220 countries</span></div>
+  <div class="stat"><b>6,500+</b><span>WhatsApp enquiries for clients</span></div>
+  <div class="stat"><b>₹0.07</b><span>per YouTube view for a new anime launch</span></div>
  </div>
  <p class="note">From client campaigns, Sep 2025 to Oct 2026. Every number is broken down in its case study.</p>
- <div class="filters" role="group" aria-label="Filter work"><button class="filter active" data-filter="all" aria-pressed="true">All work</button><button class="filter" data-filter="growth" aria-pressed="false">Ads &amp; Growth</button><button class="filter" data-filter="tech" aria-pressed="false">Websites</button><button class="filter" data-filter="brand" aria-pressed="false">Brand &amp; Social</button></div>
+ <nav class="filters" aria-label="Jump to a section">${groups.map((g) => `<a class="jump" href="#${g.id}">${esc(g.eyebrow)}</a>`).join("")}</nav>
 </div></section>
-<section style="padding-top:0"><div class="wrap"><div class="grid-3" style="margin-top:0">
-${ordered.map((c) => card(c, pre)).join("\n")}
-${cases.more.map((m) => `<article class="work-card reveal" data-cat="brand"><div class="work-visual"><div class="orb ${m.orb}"></div></div><div class="work-body"><span class="work-meta">${esc(m.sector)}</span><h3>${esc(m.client)}</h3><p>${esc(m.text)}</p><span class="tags">${esc(m.tags)}</span></div></article>`).join("\n")}
-</div></div></section>
+${groups.map((g, i) => `<section id="${g.id}" class="work-group" style="padding-top:${i ? "24px" : "0"}"><div class="wrap"><div class="reveal"><span class="eyebrow accent">${esc(g.eyebrow)}</span><h2 class="display" style="margin-top:12px">${esc(g.heading)}</h2><p class="lede" style="margin-top:14px">${esc(g.text)}</p></div><div class="grid-3">
+${g.slugs.map((s) => card(bySlug[s], pre)).join("\n")}
+${g.id === "content" ? cases.more.map((m) => `<article class="work-card reveal"><div class="work-visual"><div class="orb ${m.orb}"></div></div><div class="work-body"><span class="work-meta">${esc(m.sector)}</span><h3>${esc(m.client)}</h3><p>${esc(m.text)}</p><span class="tags">${esc(m.tags)}</span></div></article>`).join("\n") : ""}
+</div></div></section>`).join("\n")}
 <section style="padding-top:0"><div class="wrap"><div class="reveal"><span class="eyebrow accent">In their words</span><h2 class="display" style="margin-top:12px">What Our Clients Say</h2></div><div class="grid-3">
 ${quotes.map((c) => `<figure class="quote glass reveal"><blockquote>“${esc(c.quote.text)}”</blockquote><figcaption>${esc(c.quote.by)}<span><a class="link-arrow" href="case-studies/${c.slug}.html">Read the case study ${arrow}</a></span></figcaption></figure>`).join("\n")}
 </div></div></section>

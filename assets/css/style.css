@@ -203,6 +203,9 @@ header.site.scrolled { background: rgba(5,7,13,0.72); backdrop-filter: blur(14px
 .filter { padding: 9px 18px; border-radius: 999px; border: 1px solid var(--line-2); background: transparent; cursor: pointer; font-size: 13px; color: var(--muted); transition: all .2s ease; }
 .filter:hover { color: var(--text); }
 .filter.active { background: var(--text); color: #07101d; border-color: var(--text); }
+.jump { padding: 9px 18px; border-radius: 999px; border: 1px solid var(--line-2); font-size: 13px; color: var(--muted); transition: all .2s ease; }
+.jump:hover { color: var(--text); border-color: var(--text); }
+.work-group { scroll-margin-top: 90px; }
 .work-card.hide { display: none; }
 
 /* Process */
@@ -420,6 +423,7 @@ footer.site { border-top: 1px solid var(--line); padding: 70px 0 40px; backgroun
 .brand-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 34px; }
 .brand-strip span { font-family: var(--serif); font-size: clamp(20px, 2.2vw, 26px); color: var(--muted); white-space: nowrap; transition: color .2s ease; }
 .brand-strip span:hover { color: var(--text); }
+.proof p.markets { margin: 26px 0 0; color: var(--muted); }
 
 /* Case study page */
 .crumbs { display: flex; gap: 10px; font-size: 13px; color: var(--faint); margin-bottom: 22px; }
