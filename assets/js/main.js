@@ -1,18 +1,47 @@
 (function () {
   var S = window.SITE || {};
-  var wa = "https://wa.me/" + (S.whatsapp || "") + "?text=" + encodeURIComponent(S.whatsappText || "");
+  var digits = String(S.whatsapp || "").replace(/\D/g, "");
+  var wa = digits ? "https://wa.me/" + digits + "?text=" + encodeURIComponent(S.whatsappText || "") : "";
+  var mail = "mailto:" + (S.email || "") + "?subject=" + encodeURIComponent("Enquiry from the 33 League website");
+  var onContact = !!document.getElementById("lead-form");
+  var contactUrl = (document.querySelector("link[rel='stylesheet'][href*='assets/css']") || { getAttribute: function () { return ""; } }).getAttribute("href").replace("assets/css/style.css", "") + "contact.html";
   var links = {
-    email: "mailto:" + (S.email || ""),
+    email: mail,
     whatsapp: wa,
     booking: S.booking,
     instagram: S.instagram,
     linkedin: S.linkedin
   };
 
+  // Every link either goes somewhere real or is replaced/hidden. Nothing opens a dead "#".
   document.querySelectorAll("[data-link]").forEach(function (el) {
     var k = el.getAttribute("data-link");
-    if (links[k]) el.setAttribute("href", links[k]);
-    if (k !== "email") { el.setAttribute("target", "_blank"); el.setAttribute("rel", "noopener"); }
+    var url = links[k];
+    if (url) {
+      el.setAttribute("href", url);
+      if (k !== "email") { el.setAttribute("target", "_blank"); el.setAttribute("rel", "noopener"); }
+      return;
+    }
+    if (k === "booking") {
+      // No calendar link yet: send people to the enquiry form instead.
+      el.setAttribute("href", onContact ? "#lead-form" : contactUrl);
+      var p = el.querySelector("p");
+      if (p && el.classList.contains("way")) { el.querySelector("h3").textContent = "Book a Free Call"; p.textContent = "Share a few details and we will set up a 20-minute call."; }
+    } else if (k === "whatsapp") {
+      // No WhatsApp number yet: fall back to email so the button still reaches us.
+      el.setAttribute("href", mail);
+      el.removeAttribute("target");
+      var li = el.closest("li");
+      var list = el.closest("ul, .ways");
+      if (list && list.querySelector("[data-link='email'], a[href^='mailto:']")) { (li || el).remove(); return; }
+      var icon = el.querySelector("svg");
+      if (icon && !el.classList.contains("way")) icon.remove();
+      el.innerHTML = el.innerHTML.replace(/WhatsApp( Us)?/, "Email$1");
+    } else {
+      // Social profile not set: hide the link rather than show a dead one.
+      var li = el.closest("li");
+      (li || el).remove();
+    }
   });
   document.querySelectorAll("[data-text='email']").forEach(function (el) { el.textContent = S.email || ""; });
   document.querySelectorAll("[data-year]").forEach(function (el) { el.textContent = new Date().getFullYear(); });
@@ -94,13 +123,18 @@
       data.append("needs", needs);
 
       var summary = "Name: " + data.get("name") + "\nContact: " + data.get("contact") +
-        "\nBrand: " + data.get("brand") + "\nNeeds: " + needs +
-        "\nBudget: " + data.get("budget") + "\nGoal: " + data.get("message");
+        "\nBusiness: " + (data.get("brand") || "Not given") + "\nNeeds: " + needs +
+        "\nBudget: " + (data.get("budget") || "Not given") + "\nGoal: " + (data.get("message") || "Not given");
 
       var submitBtn = form.querySelector("button[type='submit']");
 
       if (!S.web3formsKey) {
-        window.open("https://wa.me/" + S.whatsapp + "?text=" + encodeURIComponent("New enquiry via website\n\n" + summary), "_blank", "noopener");
+        // No form service connected yet: hand the enquiry to WhatsApp if set, otherwise to the visitor's email app.
+        var text = "New enquiry via website\n\n" + summary;
+        if (wa) window.open("https://wa.me/" + digits + "?text=" + encodeURIComponent(text), "_blank", "noopener");
+        else window.location.href = "mailto:" + S.email + "?subject=" + encodeURIComponent("New enquiry: " + (data.get("brand") || data.get("name"))) + "&body=" + encodeURIComponent(text);
+        status.className = "form-status ok";
+        status.innerHTML = "Thanks. Your " + (wa ? "WhatsApp" : "email app") + " should open with your details filled in, so just press send. If nothing opened, write to us at <a href='mailto:" + S.email + "'>" + S.email + "</a>.";
         return;
       }
 
@@ -116,16 +150,16 @@
           if (res.success) {
             form.reset();
             status.className = "form-status ok";
-            status.innerHTML = "Thank you. We have your details and will get back within one working day. Want to talk sooner? <a data-link='booking' target='_blank' rel='noopener' href='" + S.booking + "'>Book a call</a>.";
+            status.innerHTML = "Thank you. We have your details and will get back within one working day." + (S.booking ? " Want to talk sooner? <a target='_blank' rel='noopener' href='" + S.booking + "'>Book a call</a>." : "");
           } else { throw new Error("fail"); }
         })
         .catch(function () {
           status.className = "form-status err";
-          status.innerHTML = "Something went wrong. Please message us on <a target='_blank' rel='noopener' href='" + wa + "'>WhatsApp</a> instead.";
+          status.innerHTML = "Something went wrong. Please " + (wa ? "message us on <a target='_blank' rel='noopener' href='" + wa + "'>WhatsApp</a>" : "email us at <a href='mailto:" + S.email + "'>" + S.email + "</a>") + " instead.";
         })
         .finally(function () {
           submitBtn.disabled = false;
-          submitBtn.textContent = "Send";
+          submitBtn.textContent = "Send My Enquiry";
         });
     });
   }

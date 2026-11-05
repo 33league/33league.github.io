@@ -17,7 +17,7 @@ const groups = [
   { id: "growth", eyebrow: "Ads & growth", heading: "More Customers, Counted in Orders", text: "Meta, Google and YouTube campaigns we report in orders, enquiries and installs, not likes.", slugs: ["alterhub", "number-fusion", "find-my-pet", "pushpak", "angooti"] },
   { id: "websites", eyebrow: "Websites & online stores", heading: "Websites Built to Sell", text: "Shopify, Framer and Wix sites designed around one question: what makes this visitor buy or get in touch?", slugs: ["book-port", "stree-swasthya", "muse-foods", "provifi", "hoku", "oceanus", "hunger-nuts", "loudmouth"] },
   { id: "content", eyebrow: "Brand & content", heading: "Content People Follow", text: "Instagram and brand work that turns customers into followers, and followers into the next customers.", slugs: ["bangalore-bag-company", "wood-brick-studio", "sutra-digital"] },
-  { id: "brand-identity", eyebrow: "Brand identity", heading: "Brands People Remember", text: "Logos, colours and launch kits that make a growing business look established from day one.", slugs: ["oceanus-brand", "komunitea", "house-of-tapri", "bangalore-bag-company-launch"] },
+  { id: "brand-identity", eyebrow: "Brand identity", heading: "Brands People Remember", text: "Logos, labels and, when you need it, the space itself. Brands that make a new business look established from day one.", slugs: ["komunitea", "house-of-tapri"] },
   { id: "packaging", eyebrow: "Packaging", heading: "Packaging That Sells From the Shelf", text: "Boxes, pouches and labels designed on the printer’s dieline, so they look premium and print right first time.", slugs: ["shivalli", "achappam", "delivery-boxes", "labels-merchandise"] },
   { id: "decks", eyebrow: "Decks & brochures", heading: "Proposals That Win the Room", text: "Proposals, lookbooks, menus and reports that make you look like the safe choice to bigger buyers.", slugs: ["skp-foods", "wood-brick-studio-lookbook", "deloitte"] },
   { id: "print-outdoor", eyebrow: "Print & outdoor ads", heading: "Ads People Stop For", text: "Hoardings, press ads and offer campaigns built around one clear message, in your customer’s language.", slugs: ["jio-bp-haldwani", "mantri-developers", "now-tv"] },
@@ -136,7 +136,7 @@ ${header(pre)}
 <main id="main">
 <section class="page-head"><div class="wrap">
  <span class="eyebrow accent">Selected work</span><h1 class="display">Results Our Clients Can Count</h1><hr class="rule">
- <p class="lede">We work with founders and growing brands in India and abroad. Here are a few of the things we have built for them, and what each one did for the business.</p>
+ <p class="lede">From a café’s first logo to a game launch in 220 countries. Each case shows the problem the owner had, what we did, and what it did for the business. Jump to what you need:</p>
  <nav class="filters" aria-label="Jump to a section">${groups.map((g) => `<a class="jump" href="#${g.id}">${esc(g.eyebrow)}</a>`).join("")}</nav>
 </div></section>
 ${groups.map((g, i) => `<section id="${g.id}" class="work-group" style="padding-top:${i ? "24px" : "0"}"><div class="wrap"><div class="reveal"><span class="eyebrow accent">${esc(g.eyebrow)}</span><h2 class="display" style="margin-top:12px">${esc(g.heading)}</h2><p class="lede" style="margin-top:14px">${esc(g.text)}</p></div><div class="grid-3">
@@ -164,5 +164,9 @@ ${pages.map((p) => `  <url><loc>${SITE}${p}</loc><lastmod>${today}</lastmod></ur
 fs.mkdirSync(path.join(root, "case-studies"), { recursive: true });
 ordered.forEach((c, i) => fs.writeFileSync(path.join(root, "case-studies", `${c.slug}.html`), casePage(c, i)));
 fs.writeFileSync(path.join(root, "work.html"), workPage());
+// Home page "Selected Work": one ads case, one website case, one brand case.
+const homeFile = path.join(root, "index.html");
+const home = fs.readFileSync(homeFile, "utf8").replace(/(<!-- selected:start[^>]*-->)[\s\S]*?(<!-- selected:end -->)/, (m, a, b) => `${a}\n${["alterhub", "stree-swasthya", "house-of-tapri"].map((s) => card(bySlug[s], "")).join("\n")}\n${b}`);
+fs.writeFileSync(homeFile, home);
 fs.writeFileSync(path.join(root, "sitemap.xml"), sitemap());
 console.log(`Built work.html, ${ordered.length} case studies and sitemap.xml`);

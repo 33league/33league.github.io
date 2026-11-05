@@ -325,25 +325,27 @@ module.exports = [
   },
   {
     slug: "oceanus",
-    client: "Oceanus",
-    cats: "tech",
+    client: "Oceanus Study Abroad",
+    cats: "tech brand",
     sector: "Study abroad consultancy",
-    title: "A study abroad website with one job: booking consultations",
-    summary: "A Wix website that shows students and parents exactly how Oceanus helps, and turns visitors into free consultation bookings.",
-    card: { value: "Wix", label: "site built to book free consultations" },
-    platform: "Wix",
-    role: "Web design and Wix development",
+    title: "A website and Instagram that turn anxious families into booked consultations",
+    summary: "We built Oceanus’s website and run its organic Instagram, so students and parents meet a consultancy they can trust before they ever call.",
+    card: { value: "Web + social", label: "website and Instagram from one team" },
+    platform: "Wix + Instagram",
+    role: "Web design, Wix development and organic Instagram",
     live: "oceanusstudyabroad.com",
-    services: ["Wix", "Web design", "Lead capture", "Responsive"],
-    problem: "Choosing a study abroad consultant is a big decision for students and parents, and most consultancy sites look the same and give little reason to trust them. Oceanus needed a site that shows its services, destinations and track record clearly.",
+    services: ["Wix", "Web design", "Lead capture", "Organic Instagram", "Social post design"],
+    problem: "Choosing a study abroad consultant is a big, expensive decision for students and parents, and most consultancies look the same online: stock photos, flags and busy flyers. Oceanus needed a website that shows its services, destinations and track record clearly, and an Instagram that backs it up every week.",
     approach: [
-      "A hero built around one action: book a free consultation",
+      "A website hero built around one action: book a free consultation",
       "A six-step service journey, from course choice to life after arrival",
       "A university logo strip with a clear disclaimer, building trust without overclaiming",
-      "Illustrated country cards and colour-coded track record stats",
-      "Student testimonials with a Google review prompt, and a short enquiry form beside the About block"
+      "Illustrated country cards, colour-coded track record stats, student testimonials and a short enquiry form",
+      "On Instagram: launch posts that explain every service in one look",
+      "A destination series with one template per country, so new posts take minutes, not days"
     ],
-    result: "A clear, trustworthy site with one job: get families to book that first consultation."
+    result: "One consistent story from the first Instagram post to the consultation form, built to get families to book that first call.",
+    organicNote: "Launch and destination posts for Oceanus’s Instagram, in the same calm look as the website."
   },
   {
     slug: "bangalore-bag-company",
@@ -351,18 +353,19 @@ module.exports = [
     cats: "brand",
     sector: "Sustainable totes · Bengaluru",
     title: "Every pop-up stall now brings in new followers and free content",
-    summary: "A follow-for-a-discount offer at every stall turned buyers into followers, and their photos into the posts that bring in the next customers.",
+    summary: "Organic Instagram for an eco tote brand: a follow-for-a-discount offer at every stall, launch content for new collections, and posts that sell its corporate gifting range.",
     card: { value: "Organic", label: "stall buyers turned into followers" },
-    services: ["Organic Instagram", "Community building", "Event marketing", "Customer content"],
-    problem: "Bangalore Bag Company makes sustainable raw cotton tote bags and sells at pop-ups, events and online. Every stall brought sales, but those buyers left without becoming part of the brand online.",
+    services: ["Organic Instagram", "Launch campaigns", "Corporate gifting content", "Event marketing", "Customer content"],
+    problem: "Bangalore Bag Company makes sustainable raw cotton totes and sells them at pop-ups, at events, online and as corporate gifts. Every stall brought sales, but those buyers left without becoming part of the brand online, and companies looking for gifts had no reason to think of them.",
     approach: [
       "Ran a follow-for-a-discount offer at every stall: buyers followed the page and got an instant discount",
       "Photographed happy buyers with their totes and turned them into posts",
+      "Launched new collections with coming-soon teasers (Bengaluru in three scripts) and the “Carry Happiness, One Tote at a Time” campaign",
+      "Created content for the corporate gifting range, showing the totes as branded gifts for teams and events",
       "Shared customer stories, a brand ambassador post and product details",
-      "Designed launch creatives, from coming-soon teasers to the pet bag collection",
       "Posted timely local moments, like the RCB win, to keep the brand part of the city"
     ],
-    result: "Every stall now produces followers and content at the same time.",
+    result: "Every stall now produces followers and content at the same time, and the same feed now speaks to companies buying gifts as well as shoppers.",
     quote: { text: "Every stall now gives us followers and content at the same time. A small discount turned buyers into followers, and their photos with our totes became the posts that bring in the next customers.", by: "Bangalore Bag Company, Bengaluru" }
   },
   {
@@ -405,114 +408,70 @@ module.exports = [
     related: ["find-my-pet", "number-fusion", "pushpak"]
   },
   {
-    slug: "oceanus-brand",
-    client: "Oceanus Study Abroad",
-    cats: "brand",
-    sector: "Study abroad consultancy",
-    title: "A study abroad brand families trust before the first call",
-    summary: "A calm, trustworthy identity for a study abroad consultancy, from logo to social to website.",
-    card: { value: "Brand", label: "identity and launch kit" },
-    services: ["Brand Identity Design","Logo Design","Brand Guidelines","Social Media Design","Visual Identity"],
-    format: "Logo, brand board, social kit",
-    problem: "Study abroad consultancies all look alike: stock photos, flags, busy flyers. Parents hand over a big, expensive decision only to someone who looks established. New business with no brand assets, starting from zero.",
-    approach: [
-      "Logo mark that blends an ocean wave, a circle and a bird in flight",
-      "Trust blues with a warm coral accent, plus clean type pairing",
-      "Brand board with logo variations, palette, type and moodboard",
-      "Social launch kit and a destination series for each country"
-    ],
-    result: "Looks established from day one, before the first enquiry.",
-    results: [
-      "Every post, form and page now looks like one brand",
-      "In-house team can make new posts without a designer"
-    ]
-  },
-  {
     slug: "komunitea",
     client: "KomuniTea",
     cats: "brand",
-    sector: "Craft kombucha, Goa and Bangalore",
-    title: "Labels that sell a new drink from a crowded café fridge",
-    summary: "Labels and café posters for a craft kombucha brand, built to sell from the fridge.",
-    card: { value: "Labels", label: "one system across every flavour" },
-    services: ["Brand Identity Design","Label Design","Packaging Design","Point of Sale Design","Logo Design"],
-    format: "Labels, café poster",
-    problem: "Kombucha was new to most buyers, so the bottle had to explain itself. Sold through cafés, where it competes with every other drink in the fridge. Several flavours that customers kept mixing up.",
+    sector: "Craft kombucha · Goa & Bengaluru",
+    title: "A craft kombucha brand that sells itself from a crowded café fridge",
+    summary: "Brand design for a craft kombucha maker: the wordmark, a label for every flavour and café point of sale, all built as one system.",
+    card: { value: "Brand", label: "wordmark, flavour labels and café kit" },
+    services: ["Brand design", "Logo design", "Label design", "Point of sale"],
+    format: "Brand identity, labels, café poster",
+    problem: "Kombucha is still new to most buyers, so the bottle has to explain itself. KomuniTea sells mainly through partner cafés, where it competes with every other drink in the fridge, and customers kept mixing up its flavours.",
     approach: [
-      "Hand-lettered KomuniTea wordmark with a tropical, fun personality",
-      "Label system where each flavour gets its own illustrated scene and colour",
-      "“Ask for a bottle here” poster and tent card for partner cafés"
+      "A hand-lettered KomuniTea wordmark with a tropical, fun personality",
+      "A label system where each flavour gets its own illustrated scene and colour",
+      "An “Ask for a bottle here” poster and tent card for partner cafés"
     ],
-    result: "Bottles stand out in a crowded café fridge.",
+    result: "Bottles that stand out in a crowded café fridge and tell the brand story on their own.",
     results: [
-      "Flavours are easy to tell apart at a glance",
-      "Café partners get ready-made point of sale material"
+      "Customers can tell the flavours apart at a glance",
+      "Partner cafés get ready-made point of sale material"
     ]
   },
   {
     slug: "house-of-tapri",
     client: "House of Tapri",
     cats: "brand",
-    sector: "Artisan tea café",
-    title: "A tea café brand approved on cups and bags before a single print run",
-    summary: "A warm tea café identity, shown on the cups, bags and pouches before a single thing was printed.",
-    card: { value: "Brand", label: "seen on product before printing" },
-    services: ["Brand Identity Design","Logo Design","Mockup Design","Packaging Design","Visual Identity"],
-    format: "Logo, mockups",
-    problem: "A new tea café needed a brand that feels local, warm and premium. Owner wanted to see the logo on real items before paying for printing. Takeaway cups, bags and retail pouches all needed to match.",
+    sector: "Tea café",
+    title: "A tea café built from scratch: the brand, the café and its interiors",
+    summary: "We created House of Tapri’s brand, then helped build the café itself and designed its interiors, so the cup, the counter and the room all tell one story.",
+    card: { value: "Cup to café", label: "the brand, the café setup and the interiors" },
+    services: ["Brand identity", "Café concept & setup", "Interior design", "Packaging mockups"],
+    role: "Brand identity, café setup and interior design",
+    format: "Logo, packaging, café, interiors",
+    problem: "A new tea café needed more than a logo. The owner needed a brand that feels local, warm and premium, a café to put it in, and interiors that make people want to sit down and come back. Every piece had to match, from the takeaway cup to the walls.",
     approach: [
-      "Kettle and cup logo mark with a hand-crafted feel",
-      "Warm brown, cream and terracotta palette",
-      "Realistic mockups on takeaway bag, coffee cup, tea pouch and mug"
+      "A kettle-and-cup logo mark with a hand-crafted feel, in warm brown, cream and terracotta",
+      "Realistic mockups on takeaway bags, cups, tea pouches and mugs, so the owner approved the brand before paying for any printing",
+      "Took the brand off the screen and into the café, helping plan and set up the space itself",
+      "Designed the interiors in the same warm palette, so the room feels like the brand"
     ],
-    result: "Approved the brand with confidence before spending on print.",
+    result: "One brand, from the cup in your hand to the room you sit in.",
     results: [
-      "One look across café, takeaway and retail shelf",
-      "Mockups reused for the menu, social and listings"
-    ]
-  },
-  {
-    slug: "bangalore-bag-company-launch",
-    client: "Bangalore Bag Company",
-    cats: "brand",
-    sector: "Eco cotton tote brand, Bengaluru",
-    title: "A launch story that gave a plain cotton tote a reason to buy",
-    summary: "A brand launch for eco cotton totes, from coming soon teasers to the website.",
-    card: { value: "Launch", label: "teasers to online store" },
-    services: ["Brand Identity Design","Campaign Design","Social Media Design","Illustration","Brand Launch"],
-    format: "Launch campaign, illustrations",
-    problem: "A new tote brand entering a market full of plain, generic bags. Needed buzz before launch and a reason to buy beyond “it’s cotton”. Launch had to feel local to Bengaluru.",
-    approach: [
-      "Coming soon teaser grid with Bengaluru in three scripts",
-      "Line-art illustrations that became the product designs",
-      "Launch campaign: “Carry Happiness, One Tote at a Time”",
-      "Matching look carried through to the online store"
-    ],
-    result: "A clear story that sells the bag, not just the fabric.",
-    results: [
-      "Launch built anticipation before stock went live",
-      "Shop, social and product all feel like one brand"
+      "The owner signed off every item before spending on print",
+      "Café, takeaway and retail shelf all look like one brand"
     ]
   },
   {
     slug: "shivalli",
     client: "Shivalli",
     cats: "brand",
-    sector: "Traditional foods and sweets",
+    sector: "Traditional foods & sweets",
     title: "Heritage food packs that printed right the first time",
     summary: "Ready-meal cartons and traditional sweet packs that look heritage and modern at the same time.",
-    card: { value: "Packaging", label: "designed on the printer’s dieline" },
-    services: ["Packaging Design","Dieline Design","Print Design","Food Packaging","Label Design"],
+    card: { value: "Packaging", label: "heritage packs that hold their own next to national brands" },
+    services: ["Packaging design", "Dieline design", "Print design", "Label design"],
     format: "Carton, sweets sleeve",
-    problem: "A traditional brand moving ready-to-eat meals into retail. Heritage recipes, but packs needed to compete with modern brands. Cartons had to fit the printer’s die exactly.",
+    problem: "Shivalli was taking heritage recipes like khichdi and Mysore Pak into retail, next to modern national brands. The packs had to look traditional and modern at once, and the cartons had to fit the printer’s die exactly, because one mistake means paying for a full reprint.",
     approach: [
-      "Khichdi carton on the full flat dieline, with an illustrated story panel",
+      "Khichdi carton designed on the full flat dieline, with an illustrated story panel",
       "Warm, appetising colour blocking that reads from a distance",
-      "Mysore Pak sleeve with a traditional recipe cue and window"
+      "Mysore Pak sleeve with a traditional recipe cue and a window"
     ],
     result: "Printed right the first time on the supplier’s die.",
     results: [
-      "Stands out next to national brands",
+      "Stands out next to national brands on the shelf",
       "The pack tells the heritage story, so the shelf does the selling"
     ]
   },
@@ -522,58 +481,58 @@ module.exports = [
     cats: "brand",
     sector: "Homemade Kerala snacks",
     title: "A homemade snack, packaged to sell as a premium gift",
-    summary: "A homemade Kerala snack, packaged to sell as a premium gift.",
-    card: { value: "Premium", label: "pouch, gift box and poster" },
-    services: ["Packaging Design","Pouch Design","Food Packaging","Mockup Design","Brand Design"],
-    format: "Pouch, gift box",
-    problem: "Homemade snacks are usually sold in plain plastic, at low prices. The owner wanted to sell as a premium, giftable product. Needed packs that work in shops, online and at festivals.",
+    summary: "Pouch, gift box and launch poster that let a homemade Kerala snack charge a premium price.",
+    card: { value: "Premium", label: "a homemade snack, packed and priced as a gift" },
+    services: ["Packaging design", "Pouch design", "Gift box design", "Mockups"],
+    format: "Pouch, gift box, poster",
+    problem: "Homemade snacks usually sell in plain plastic at low prices. The owner wanted to sell Achappam as a premium, giftable product, with packs that work in shops, online and at festivals.",
     approach: [
-      "Deep, rich palette with a Kerala heritage pattern",
-      "Script wordmark and hero product shot on the front",
+      "A deep, rich palette with a Kerala heritage pattern",
+      "Script wordmark and a hero product shot on the front",
       "Matching pouch, gift box and launch poster"
     ],
-    result: "Supports a premium price point.",
+    result: "Packaging that supports a premium price.",
     results: [
       "Giftable for festivals and corporate hampers",
-      "One look across shelf, online listing and social"
+      "One look across the shelf, online listings and social"
     ]
   },
   {
     slug: "delivery-boxes",
     client: "Takeaway & Delivery Boxes",
     cats: "brand",
-    sector: "Pizzuto, slice boxes and SKP Foods",
+    sector: "Pizzuto, slice boxes & SKP Foods",
     title: "Delivery boxes that turn every order into an ad",
-    summary: "Pizza and meal boxes that turn every delivery into an ad for the restaurant.",
-    card: { value: "Kraft", label: "low-cost boxes with high impact" },
-    services: ["Packaging Design","Food Packaging","Print Design","Restaurant Branding","Box Design"],
+    summary: "Pizza and meal boxes that make every delivery an ad for the restaurant, on low-cost kraft printing.",
+    card: { value: "Kraft", label: "low-cost boxes that make every delivery an ad" },
+    services: ["Packaging design", "Box design", "Restaurant branding", "Print design"],
     format: "Pizza and meal boxes",
-    problem: "On delivery apps, the box is the first thing the customer touches. Plain brown boxes make a restaurant forgettable. Needed low-cost kraft printing with high impact.",
+    problem: "On delivery apps, the box is the first thing a customer touches. A plain brown box makes a restaurant forgettable, but printed boxes have to stay cheap because they are thrown away after every order.",
     approach: [
-      "Pizzuto pizza box with a doodle pattern and bold brand seal",
-      "Single-slice pizza box with a playful “good to last slice” line",
-      "SKP Foods meal box with simple icon pattern on kraft"
+      "Pizzuto pizza box with a doodle pattern and a bold brand seal",
+      "Single-slice pizza box with a playful “good to the last slice” line",
+      "SKP Foods meal box with a simple icon pattern on kraft"
     ],
-    result: "Unboxing photos tag the brand on social for free.",
+    result: "Boxes customers photograph and tag, which puts the brand on social for free.",
     results: [
       "Low-cost one or two colour printing",
-      "Repeat orders recognise the brand instantly"
+      "Repeat customers recognise the brand instantly"
     ]
   },
   {
     slug: "labels-merchandise",
     client: "Muse Foods & Food for Plants",
     cats: "brand",
-    sector: "Muse Foods and Food for Plants",
+    sector: "Food & gardening brands",
     title: "Bottles and pouches that keep a brand in customers’ hands",
-    summary: "Bottle labels and product pouches for a food brand and a gardening brand.",
-    card: { value: "Labels", label: "bottles and product pouches" },
-    services: ["Label Design","Packaging Design","Merchandise Design","Print Design","Brand Design"],
+    summary: "Bottle labels for a corporate dining brand and a product pouch for a gardening brand.",
+    card: { value: "Labels", label: "bottles and pouches that explain themselves" },
+    services: ["Label design", "Packaging design", "Merchandise design", "Print design"],
     format: "Bottle labels, pouch",
-    problem: "Muse Foods needed branded bottles for clients and events. Food for Plants needed a pouch that explains a new product simply. Both needed to look premium on a small budget.",
+    problem: "Muse Foods wanted branded bottles to hand to clients and at events. Food for Plants needed a pouch that explains a new product without a salesperson. Both had to look premium on a small budget.",
     approach: [
-      "Soft pink Muse label system across three bottle types",
-      "Kraft pouch label for Food for Plants with clear usage steps"
+      "A soft pink Muse label system across three bottle types",
+      "A kraft pouch label for Food for Plants with clear usage steps"
     ],
     result: "Branded merchandise that keeps the business in clients’ hands.",
     results: [
@@ -584,22 +543,22 @@ module.exports = [
     slug: "skp-foods",
     client: "SKP Foods",
     cats: "brand",
-    sector: "Corporate catering, Bangalore, Goa and Delhi",
+    sector: "Corporate catering · Bengaluru, Goa & Delhi",
     title: "A catering proposal built to win corporate contracts",
     summary: "A corporate events proposal and a Diwali package brochure for a women-led catering company.",
-    card: { value: "5,000+", label: "meals a day capacity, shown in one deck" },
-    services: ["Presentation Design","Pitch Deck","Brochure Design","Menu Design","Corporate Communication"],
+    card: { value: "5,000+", label: "meals a day, the capacity the deck proves to buyers" },
+    services: ["Proposal deck", "Brochure design", "Menu design", "Corporate communication"],
     format: "Proposal deck, festive brochure",
-    problem: "Competing for corporate catering contracts against much bigger players. Procurement teams wanted capacity, clients and compliance in one place. Diwali orders needed clear packages, not long WhatsApp menus.",
+    problem: "SKP Foods competes for corporate catering contracts against much bigger players. Procurement teams want capacity, clients and compliance in one place, and Diwali orders needed clear packages instead of long menus sent over WhatsApp.",
     approach: [
-      "Events proposal: founder story, clientele wall, capacity and team",
-      "Services split by event type: corporate, institutional, social, IT",
-      "Diwali corporate brochure with drinks, menus and desserts",
+      "Events proposal with the founder story, client wall, capacity and team",
+      "Services split by event type: corporate, institutional, social and IT",
+      "A Diwali corporate brochure with drinks, menus and desserts",
       "Four priced packages from ₹450 to ₹700 per guest"
     ],
-    result: "One document answers every buyer question before the call.",
+    result: "One document that answers every buyer question before the call.",
     results: [
-      "Shows 5,000+ meals a day capacity and a big-brand client list",
+      "Shows 5,000+ meals a day of capacity and a big-brand client list",
       "Fixed packages make it easy for HR teams to say yes"
     ]
   },
@@ -607,18 +566,18 @@ module.exports = [
     slug: "wood-brick-studio-lookbook",
     client: "Wood Brick Studio",
     cats: "brand",
-    sector: "Architecture, interiors and construction studio",
+    sector: "Architecture, interiors & construction",
     title: "A lookbook that sells the studio before the second meeting",
-    summary: "A “Model to Remodel” lookbook that an interiors studio sends after every first call.",
+    summary: "A 16-page “Model to Remodel” lookbook the studio sends after every first call.",
     card: { value: "16", label: "page lookbook sent after every first call" },
-    services: ["Brochure Design","Lookbook Design","Layout Design","Print Design","Interior Design Marketing"],
+    services: ["Lookbook design", "Brochure design", "Layout design", "Print design"],
     format: "Lookbook, company profile",
-    problem: "Prospects couldn’t picture the studio’s range from a few Instagram posts. Sales calls had nothing premium to follow up with. Process and pricing questions repeated on every call.",
+    problem: "Prospects couldn’t picture the studio’s full range from a few Instagram posts, and after a first call the team had nothing premium to send. The same questions about process and pricing came up on every call.",
     approach: [
-      "16-page lookbook in a calm mauve and gold palette",
-      "Room by room collections with colour palettes",
+      "A 16-page lookbook in a calm mauve and gold palette",
+      "Room-by-room collections with their colour palettes",
       "Commercial, renovation and construction sections",
-      "5-step “how we work” page from first call to handover"
+      "A five-step “how we work” page, from first call to handover"
     ],
     result: "A premium follow-up that keeps the studio top of mind.",
     results: [
@@ -633,17 +592,17 @@ module.exports = [
     sector: "Professional services",
     title: "An editorial report template that gets read past page two",
     summary: "An on-brand editorial report template for Deloitte, plus a data infographic.",
-    card: { value: "Report", label: "template and infographic" },
-    services: ["Report Design","Layout Design","Editorial Design","Infographic Design","Template Design"],
+    card: { value: "Report", label: "an editorial template teams reuse" },
+    services: ["Report design", "Editorial design", "Infographic design", "Template design"],
     format: "Report template, infographic",
-    problem: "Corporate reports are long, dense and rarely read. Teams rebuild layouts from scratch for each report. Data tables and charts look different on every page.",
+    problem: "Corporate reports are long, dense and rarely read past the first pages. Teams were rebuilding layouts from scratch for each report, and tables and charts looked different on every page.",
     approach: [
       "Cover, contents, about, feature and back cover layouts",
-      "Editorial grid with pull quotes and image spreads",
+      "An editorial grid with pull quotes and image spreads",
       "Styled data tables and chart placeholders",
-      "A data-led infographic for a public health topic"
+      "A data-led infographic on a public health topic"
     ],
-    result: "Reports that people actually read past page two.",
+    result: "Reports people actually read past page two.",
     results: [
       "Teams drop in new content without redesigning",
       "Consistent data styling across every report"
@@ -653,44 +612,44 @@ module.exports = [
     slug: "jio-bp-haldwani",
     client: "Jio-bp Fuel Station, Haldwani",
     cats: "brand",
-    sector: "Fuel station, Rampur Road, Haldwani",
+    sector: "Fuel station · Haldwani",
     title: "One Hindi message, readable from a moving truck",
-    summary: "Launch and diesel offer creatives for a new Jio-bp fuel station in Haldwani.",
-    card: { value: "₹1", label: "per litre cheaper, the one message" },
-    services: ["Outdoor Advertising","Billboard Design","Print Ad Design","Hindi Creative","Retail Marketing"],
+    summary: "Launch and diesel offer creatives for a new Jio-bp fuel station on Rampur Road, Haldwani.",
+    card: { value: "Hindi", label: "one offer, readable from the highway" },
+    services: ["Outdoor advertising", "Hoarding design", "Print ads", "Hindi creative"],
     format: "Hoardings, posters",
-    problem: "A newly opened fuel outlet that local drivers didn’t know about yet. Truckers pick fuel stops on price and habit. The message had to be read from a moving vehicle.",
+    problem: "A new fuel station that local drivers didn’t know about yet. Truck drivers choose where to fill up on price and habit, and they read a hoarding from a moving vehicle, so the message had a second or two to land.",
     approach: [
-      "“Now Open” launch banner for the outlet",
-      "Hindi offer campaign: diesel ₹1 per litre cheaper than market rate",
-      "Relatable trucker and driver faces with the outlet in frame",
+      "A “Now Open” launch banner for the outlet",
+      "A Hindi offer campaign: diesel ₹1 a litre cheaper than the market rate",
+      "Relatable truck driver faces, with the outlet in the frame",
       "Horizontal hoarding and vertical poster formats"
     ],
-    result: "One message, cheaper diesel, readable in two seconds.",
+    result: "One message, cheaper diesel, readable in a glance.",
     results: [
       "Speaks the local customer’s language",
-      "Launch and offer look like one campaign across sizes"
+      "Launch and offer look like one campaign across every size"
     ]
   },
   {
     slug: "mantri-developers",
     client: "Mantri Developers",
     cats: "brand",
-    sector: "Mantri Serenity and Mantri Lithos, Bangalore",
+    sector: "Real estate · Bengaluru",
     title: "Real estate ads that lead with the number buyers look for",
-    summary: "Press ads and a referral campaign for two Bangalore residential projects.",
-    card: { value: "₹76L", label: "2BHK price, first thing buyers read" },
-    services: ["Print Ad Design","Real Estate Marketing","Newspaper Ads","Campaign Design","Copy Layout"],
+    summary: "Press ads and a referral campaign for Mantri Serenity and Mantri Lithos, two Bengaluru residential projects.",
+    card: { value: "Price-first", label: "press ads and a resident referral campaign" },
+    services: ["Print ads", "Newspaper ads", "Real estate marketing", "Campaign design"],
     format: "Press ads, referral campaign",
-    problem: "Most real estate ads show the same building render and a phone number. Buyers compare projects on price, size and location first. Existing residents were an untapped sales channel.",
+    problem: "Most real estate ads show the same building render and a phone number. Buyers compare projects on price, size and location first, and the developer’s existing residents were a sales channel nobody was using.",
     approach: [
-      "Price-led ad: “Trawl the less, less is more” with 2BHK, 1,025 sq ft at ₹76L",
-      "Newspaper ad with project highlights, specs and amenities",
-      "Refer a Friend campaign for Lithos: win up to ₹1 lakh"
+      "A price-led ad: “Trawl the less, less is more”, with a 1,025 sq ft 2BHK at ₹76L",
+      "A newspaper ad with project highlights, specs and amenities",
+      "A Refer a Friend campaign for Lithos: residents could win up to ₹1 lakh"
     ],
-    result: "The key numbers are the first thing a buyer reads.",
+    result: "The numbers buyers care about are the first thing they read.",
     results: [
-      "Referral turns happy residents into a sales team",
+      "The referral campaign turns happy residents into a sales team",
       "A fresh, idea-led look in a category of lookalike ads"
     ]
   },
@@ -698,21 +657,21 @@ module.exports = [
     slug: "now-tv",
     client: "NOW TV",
     cats: "brand",
-    sector: "Streaming · London",
+    sector: "Streaming · UK",
     title: "A student offer that sells the show and the price in one glance",
-    summary: "A student subscription offer campaign built around one big show and one small price.",
-    card: { value: "£1.66", label: "a month, given equal weight to the show" },
-    services: ["Advertising Design","Poster Design","Banner Design","Campaign Design","Offer Marketing"],
+    summary: "A student subscription campaign built around one big show and one small monthly price.",
+    card: { value: "3 formats", label: "poster, social and banner for a student offer" },
+    services: ["Advertising design", "Poster design", "Banner design", "Offer campaigns"],
     format: "Posters, digital banners",
-    problem: "Students are price sensitive and ignore generic ads. The offer needed to feel exclusive and time-bound. Had to work as posters and as digital banners.",
+    problem: "Students are price-sensitive and scroll past generic ads. NOW TV’s student offer needed to feel exclusive and time-bound, and the same idea had to work on campus posters and as online banners.",
     approach: [
-      "Campaign built around the season launch everyone was talking about",
-      "Offer badge and price, £1.66 a month, given equal weight to the show",
-      "Three layouts: square, portrait poster and landscape banner"
+      "Built the campaign around the season launch everyone was talking about",
+      "Gave the offer price (£1.66 a month) as much space as the show itself",
+      "Three layouts: square post, portrait poster and landscape banner"
     ],
-    result: "The price and the reason to buy are both read in one glance.",
+    result: "Students read the price and the reason to buy in one glance.",
     results: [
-      "Same campaign works on campus posters and online",
+      "The same campaign works on campus posters and online",
       "A template that can be reused for the next big show"
     ]
   },
@@ -720,39 +679,39 @@ module.exports = [
     slug: "3d-interiors",
     client: "3D Interiors & Floor Plans",
     cats: "brand",
-    sector: "For interior designers and builders",
+    sector: "For interior designers & builders",
     title: "Renders that get homeowners to sign off before work starts",
     summary: "Photoreal kitchens, rooms, floor plans and exteriors for interior and architecture firms.",
-    card: { value: "3D", label: "kitchens, rooms and floor plans" },
-    services: ["3D Rendering","Interior Visualization","Architectural Visualization","3D Floor Plans","Autodesk 3ds Max"],
+    card: { value: "3D", label: "homeowners say yes before work starts" },
+    services: ["3D rendering", "Interior visualisation", "3D floor plans", "Autodesk 3ds Max"],
     format: "3D renders, floor plans",
-    problem: "Homeowners can’t read technical drawings, so decisions stall. Changes discovered on site are expensive. Firms need portfolio images before a project is built.",
+    problem: "Homeowners can’t read technical drawings, so decisions stall and changes get discovered on site, where they are expensive. Firms also need portfolio images before a project is built.",
     approach: [
       "Modular kitchen renders with real materials and lighting",
-      "3D top-down floor plans showing furniture and flow",
-      "Living room, kids room and exterior cottage renders"
+      "Top-down 3D floor plans that show furniture and flow",
+      "Living room, kids’ room and cottage exterior renders"
     ],
     result: "Faster client sign-off, with fewer changes on site.",
     results: [
       "Sell projects before they are built",
-      "Portfolio-quality images for website and social"
+      "Portfolio-quality images for the website and social"
     ]
   },
   {
     slug: "3d-product-visuals",
     client: "3D Product & Scene Visuals",
     cats: "brand",
-    sector: "Product, environment and character work",
+    sector: "Product, scene & character work",
     title: "Hero product shots without a photoshoot",
     summary: "Studio-quality product shots, lit scenes and characters, made entirely in 3D.",
-    card: { value: "3D", label: "product, scene and character renders" },
-    services: ["3D Product Rendering","3D Modeling","Lighting","3D Animation","Autodesk Maya"],
+    card: { value: "3D", label: "hero product shots, no photoshoot" },
+    services: ["3D product rendering", "3D modelling", "Lighting", "Autodesk Maya"],
     format: "Product renders",
-    problem: "Product photography needs the product, the studio and the time. Some products and scenes are impossible to shoot. Launch and ad visuals are needed before samples exist.",
+    problem: "Product photography needs the product, a studio and time. Some scenes are impossible to shoot, and launch and ad visuals are often needed before samples even exist.",
     approach: [
-      "Car product renders in studio and on-road lighting",
+      "Car renders in studio and on-road lighting",
       "Night-time environment scenes with complex lighting",
-      "Moody still life and a rigged 3D character"
+      "A moody still life and a rigged 3D character"
     ],
     result: "Hero product images without a photoshoot.",
     results: [
@@ -764,22 +723,22 @@ module.exports = [
     slug: "ai-imagery",
     client: "AI Brand & Campaign Imagery",
     cats: "brand",
-    sector: "For gyms, game studios and builders",
+    sector: "For gyms, game studios & builders",
     title: "Campaign-ready visuals in days, not weeks",
     summary: "Logos, storefronts, game art and property visuals created with AI and finished by a designer.",
-    card: { value: "AI", label: "logos, storefronts and key art" },
-    services: ["AI Image Generation","Midjourney","Photoshop","Mockup Design","Digital Illustration"],
+    card: { value: "AI", label: "campaign visuals in days, finished by a designer" },
+    services: ["AI image generation", "Midjourney", "Photoshop", "Mockups"],
     format: "AI imagery, mockups",
-    problem: "Small businesses need fresh visuals every week. Stock images look generic and photoshoots cost too much. Raw AI images often look fake and off-brand.",
+    problem: "Small businesses need fresh visuals every week. Stock images look generic, photoshoots cost too much, and raw AI images often look fake and off-brand.",
     approach: [
-      "23M gym mascot logo and storefront window graphic",
-      "Number Fusion game key art for app store and ads",
+      "A mascot logo and storefront window graphic for 23M gym",
+      "Number Fusion game key art for the app store and ads",
       "Illustrated heritage art and a villa exterior for a builder"
     ],
     result: "Campaign-ready visuals in days, not weeks.",
     results: [
-      "Brand-consistent, not generic AI output",
-      "Pre-launch property and product visuals"
+      "On-brand, not generic AI output",
+      "Property and product visuals ready before launch"
     ]
   },
   {
@@ -789,37 +748,37 @@ module.exports = [
     sector: "Weddings across India",
     title: "Wedding suites that put every detail in one place",
     summary: "Complete wedding suites with monograms, invites and multi-day agendas.",
-    card: { value: "Suites", label: "save the date, invite and agenda" },
-    services: ["Invitation Design","Wedding Stationery","Graphic Design","Typography","Print Design"],
+    card: { value: "Suites", label: "every event, venue and time in one place" },
+    services: ["Invitation design", "Wedding stationery", "Typography", "Print design"],
     format: "Digital and print invitations",
-    problem: "Multi-day Indian weddings mean many events, venues and timings. Families want it traditional and personal at once. Guests share invites on WhatsApp, so they must read well on a phone.",
+    problem: "Multi-day Indian weddings mean many events, venues and timings. Families want the invite to feel traditional and personal, and guests forward it on WhatsApp, so it has to read well on a phone.",
     approach: [
       "Monogram save the date, invite and agenda in one palette",
       "Floral and dreamcatcher themes chosen to suit each couple",
-      "Event by event agenda with venue and QR code"
+      "An event-by-event agenda with venue and QR code"
     ],
     result: "Guests have every detail in one place.",
     results: [
-      "A premium, personal suite planners can resell",
-      "Designed phone-first, print-ready as well"
+      "A premium, personal suite that planners can resell",
+      "Designed phone-first, and print-ready too"
     ]
   },
   {
     slug: "celebration-invitations",
     client: "Party & Housewarming Invitations",
     cats: "brand",
-    sector: "Bangalore",
+    sector: "Bengaluru",
     title: "Personal invites, made fast, with the venue one tap away",
     summary: "Party and housewarming invites with custom illustration and venue QR codes.",
-    card: { value: "Invites", label: "custom illustration and QR codes" },
-    services: ["Invitation Design","Illustration","Graphic Design","Bilingual Design","Digital Invitations"],
+    card: { value: "Invites", label: "custom art, with the venue one tap away" },
+    services: ["Invitation design", "Illustration", "Bilingual design", "Digital invitations"],
     format: "Digital invitations",
-    problem: "Hosts want a fun, personal invite, not a stock template. Venue directions are the most asked question. Needed a quick turnaround for WhatsApp sharing.",
+    problem: "Hosts want a fun, personal invite, not a stock template. Directions to the venue are the question guests ask most, and the invite had to be ready quickly to share on WhatsApp.",
     approach: [
-      "Stag and Doe party invite with custom illustration",
-      "Griha Pravesh invite in Kannada and English with a venue QR code"
+      "A Stag and Doe party invite with custom illustration",
+      "A Griha Pravesh invite in Kannada and English with a venue QR code"
     ],
-    result: "Personal invites made quickly.",
+    result: "Personal invites, made quickly.",
     results: [
       "Fewer “where is it?” calls on the day"
     ]
