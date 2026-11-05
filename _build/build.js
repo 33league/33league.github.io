@@ -16,7 +16,13 @@ const bySlug = Object.fromEntries(cases.map((c) => [c.slug, c]));
 const groups = [
   { id: "growth", eyebrow: "Ads & growth", heading: "More Customers, Counted in Orders", text: "Meta, Google and YouTube campaigns we report in orders, enquiries and installs, not likes.", slugs: ["alterhub", "number-fusion", "find-my-pet", "pushpak", "angooti"] },
   { id: "websites", eyebrow: "Websites & online stores", heading: "Websites Built to Sell", text: "Shopify, Framer and Wix sites designed around one question: what makes this visitor buy or get in touch?", slugs: ["book-port", "stree-swasthya", "muse-foods", "provifi", "hoku", "oceanus", "hunger-nuts", "loudmouth"] },
-  { id: "content", eyebrow: "Brand & content", heading: "Content People Follow", text: "Instagram and brand work that turns customers into followers, and followers into the next customers.", slugs: ["bangalore-bag-company", "wood-brick-studio", "sutra-digital"] }
+  { id: "content", eyebrow: "Brand & content", heading: "Content People Follow", text: "Instagram and brand work that turns customers into followers, and followers into the next customers.", slugs: ["bangalore-bag-company", "wood-brick-studio", "sutra-digital"] },
+  { id: "brand-identity", eyebrow: "Brand identity", heading: "Brands People Remember", text: "Logos, colours and launch kits that make a growing business look established from day one.", slugs: ["oceanus-brand", "komunitea", "house-of-tapri", "bangalore-bag-company-launch"] },
+  { id: "packaging", eyebrow: "Packaging", heading: "Packaging That Sells From the Shelf", text: "Boxes, pouches and labels designed on the printer’s dieline, so they look premium and print right first time.", slugs: ["shivalli", "achappam", "delivery-boxes", "labels-merchandise"] },
+  { id: "decks", eyebrow: "Decks & brochures", heading: "Proposals That Win the Room", text: "Proposals, lookbooks, menus and reports that make you look like the safe choice to bigger buyers.", slugs: ["skp-foods", "wood-brick-studio-lookbook", "deloitte"] },
+  { id: "print-outdoor", eyebrow: "Print & outdoor ads", heading: "Ads People Stop For", text: "Hoardings, press ads and offer campaigns built around one clear message, in your customer’s language.", slugs: ["jio-bp-haldwani", "mantri-developers", "now-tv"] },
+  { id: "visuals", eyebrow: "3D & AI visuals", heading: "See It Before It Exists", text: "Photoreal 3D renders and AI imagery, so customers can say yes before anything is built or shot.", slugs: ["3d-interiors", "3d-product-visuals", "ai-imagery"] },
+  { id: "invitations", eyebrow: "Event invitations", heading: "Invitations Guests Actually Read", text: "Save the dates, invites and agendas, phone-first and print-ready, for planners, venues and hosts.", slugs: ["wedding-invitations", "celebration-invitations"] }
 ];
 const ordered = groups.flatMap((g) => g.slugs.map((s) => bySlug[s]));
 
@@ -90,7 +96,7 @@ function casePage(c, idx) {
 
   const facts = c.stats
     ? `<div class="stats cs-stats reveal">${c.stats.map((s) => `<div class="stat"><b>${esc(s.v)}</b><span>${esc(s.l)}</span></div>`).join("")}</div>${c.period ? `<p class="note">${esc(c.period)}. Figures from the client's ad accounts and sales records.</p>` : ""}`
-    : `<div class="cs-meta reveal"><div><span>Platform</span><b>${esc(c.platform || c.services[0])}</b></div><div><span>What we did</span><b>${esc(c.role || c.services.join(", "))}</b></div><div><span>${c.live ? "Live site" : "Timeline"}</span><b>${c.live ? `<a class="link-arrow" href="https://${c.live}" target="_blank" rel="noopener">${esc(c.live)} ${arrow}</a>` : esc(c.period || "Ongoing")}</b></div></div>`;
+    : `<div class="cs-meta reveal"><div><span>Platform</span><b>${esc(c.platform || c.services[0])}</b></div><div><span>What we did</span><b>${esc(c.role || c.services.join(", "))}</b></div><div><span>${c.live ? "Live site" : c.format ? "Format" : "Timeline"}</span><b>${c.live ? `<a class="link-arrow" href="https://${c.live}" target="_blank" rel="noopener">${esc(c.live)} ${arrow}</a>` : esc(c.format || c.period || "Ongoing")}</b></div></div>`;
 
   const related = c.related
     ? `<section style="padding-top:0"><div class="wrap"><div class="reveal"><span class="eyebrow accent">Paid campaigns for the same studio</span><h2 class="display" style="margin-top:12px">Then We Put Money Behind It</h2></div><div class="grid-3">${c.related.map((s) => card(bySlug[s], pre)).join("")}</div></div></section>`

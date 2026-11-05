@@ -1118,5 +1118,587 @@
                               "organic":  false,
                               "tall":  false
                           }
-                      ]
+                      ],
+    "oceanus-brand": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Logo and brand board",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "The brand in use",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Destination series",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "05.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Carried to the website",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "komunitea": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "One label system many flavours",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Point of sale for caf s",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "house-of-tapri": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Takeaway and caf",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Retail and merchandise",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "bangalore-bag-company-launch": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Launch teasers",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Launch campaign",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Online store",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "shivalli": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Khichdi carton flat to folded",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Mysore Pak printed and packed",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "achappam": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Pouch and gift box",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Launch poster",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "delivery-boxes": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Pizza boxes",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Meal box for a caterer",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "labels-merchandise": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Muse Foods bottles",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Food for Plants pouch",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "skp-foods": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Proposal deck cover and story",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Proof that wins contracts",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Services by event type",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "05.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Diwali corporate package",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "06.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Priced packages and hero dishes",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "wood-brick-studio-lookbook": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover and introduction",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Room by room collections",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Range and palettes",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "05.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Renovation construction and process",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "deloitte": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover and contents",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Editorial spreads",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Back cover and infographic",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "jio-bp-haldwani": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Outlet launch",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Diesel offer campaign",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "mantri-developers": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Price led press ad",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Newspaper ad and referral campaign",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "now-tv": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Campaign layouts",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "3d-interiors": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Modular kitchens",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "3D floor plan",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Rooms and exteriors",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "3d-product-visuals": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Product renders",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Environments and lighting",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Character",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "ai-imagery": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Brand and storefront",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Game key art",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Illustration and property",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "wedding-invitations": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Divyja and Ankit",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "03.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Subhashree and Venkatesh",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "04.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Arun and Priyanka",
+        "organic": false,
+        "tall": false
+      }
+    ],
+    "celebration-invitations": [
+      {
+        "file": "01.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Cover",
+        "organic": false,
+        "tall": false
+      },
+      {
+        "file": "02.jpg",
+        "w": 1600,
+        "h": 1000,
+        "caption": "Party and housewarming",
+        "organic": false,
+        "tall": false
+      }
+    ]
 }
